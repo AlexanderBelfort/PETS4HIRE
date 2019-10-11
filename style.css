@@ -1,0 +1,124 @@
+body {
+	font-family: Poor Richard;
+    background: url("img/mybackground.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.footer {
+	background: url("img/footer.png");
+	height:102px;
+}
+
+.content {
+	background: url("img/background.png");
+	padding: 0 25px;
+	font-size: 20px;
+}
+
+#share-buttons img {
+margin: 20px 50px;
+width: 55px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+a.nav-link {
+	color: #000000;
+}
+
+a.nav-link:hover {
+	color: #ffffff;
+}
+
+a.navbar-brand {
+	font-size: 33px;
+}
+
+.img-fluid {
+	width: 100%;
+}
+
+.navbar {
+	background-color: #ecf0f1;
+}
+
+.navbar .navbar-brand {
+	color: #000000;
+}
+
+
+.col-sm-6 img {
+	width: 100%;
+    padding: 10px;
+}
+
+.col-sm-3 img {
+    width: 100%;
+    padding: 10px;
+}
+
+.pets {
+	background-color: white;
+	width: 100%;
+	height: 600px;
+	overflow: scroll;
+	margin : 0 auto;
+}
+
+
+.col-sm-3 {
+	padding : 10px 30px;
+	margin : 0 auto;
+}
+
+.col-sm-9 {
+	padding : 0px;
+	font-size: 20px;
+}
+
+.col-sm-12 {
+	font-size: 20px
+}
+
+.col-sm-3 img {
+	padding-top:30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width:100%;
+	max-height:100%
+}
+
+.theme h1 {
+	color: rgb(64,184,166);
+	text-align: center;
+}
+
+.contactclass {
+	padding: 10px 0;
+}
+
+@media (max-width: 1200px) {
+	#share-buttons img {
+		margin: 10px 20px;
+		width: 35px;
+		padding: 5px;
+		border: 0;
+		box-shadow: 0;
+		display: inline;
+}
+}
+
+@media (max-width: 350px) {
+	#share-buttons img {
+		margin: 5px 10px;
+		width: 35px;
+		padding: 5px;
+		border: 0;
+		box-shadow: 0;
+		display: inline;
+}
+}
